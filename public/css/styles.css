@@ -1,90 +1,193 @@
-body{
-   max-width: 650px;
-   align-content: center;
-   margin: 0 auto;
-   font-family: sans-serif;
-   padding-left: 20px;
-   padding-top: 25px;
+
+/*For Desktop*/
+@media only screen and (min-width: 601px) {
+
+    body{
+        align-content: center;
+        margin: 0 auto;
+        font-family: sans-serif;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 25px;
+        background-color: white;
+        max-width: 750px;
+     }
+     
+     h1{
+         font-size: 40px;
+         margin-bottom: 20;
+         letter-spacing: 1.5px;
+     }
+     
+     a{
+         color: #333333;
+         text-decoration: none;
+         padding-right: 50px;
+         font-weight: 500;
+         font-size: 15px;
+     }
+     
+     p.footer_text{
+         color: #333333;
+     }
+     
+     footer{
+         position: fixed;
+         bottom: 0px;
+         min-width: 650px;
+     }
+     
+     form{
+         margin-top: 60px;
+     }
+     
+     input{
+         border: 1px solid #333333;
+         padding: 8px;
+     }
+     
+     button{
+         cursor: pointer;
+         border: 1px solid #888888;
+         background-color: #888888;
+         color: white;
+         padding: 8px;
+         border-color: #888888;
+     }
+     
+     .msgLocation{
+         font-size: 45px;    
+         font-family: sans-serif;
+         font-weight: 900;
+         letter-spacing: 1.5px;
+         margin-bottom: 0px;
+         color: #000111;
+     }
+     
+     .msgTemp{
+         font-size: 22px;    
+         font-family: sans-serif;
+         font-weight: 400;
+         letter-spacing: 1.3px;
+         margin-bottom: 10px;
+         color: #333333;
+     }
+     
+     .msgForecast{
+         font-size: 15px;    
+         font-family: sans-serif;
+         font-weight: 200;
+         letter-spacing: 1.5px;
+         margin-bottom: 10px;
+         color: #666666;
+     }
+     
+     .d1{
+         margin-top: 70px;
+         font-size: 15px;    
+         font-family: sans-serif;
+         font-weight: 200;
+         letter-spacing: 1.5px;
+         margin-bottom: 10px;
+         color: #fff666;
+         padding: 10px 10px;
+         background-color: black;
+         margin-right: 20px;
+     }
+
 }
 
-h1{
-    font-size: 40px;
-    margin-bottom: 20;
-    letter-spacing: 1.5px;
-}
+/*For Mobile Phones*/
 
-a{
-    color: #333333;
-    text-decoration: none;
-    padding-right: 50px;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-p.footer_text{
-    color: #333333;
-}
-
-footer{
-    position: fixed;
-    bottom: 0px;
-    min-width: 650px;
-}
-
-form{
-    margin-top: 60px;
-}
-
-input{
-    border: 1px solid #333333;
-    padding: 8px;
-}
-
-button{
-    cursor: pointer;
-    border: 1px solid #888888;
-    background-color: #888888;
-    color: white;
-    padding: 8px;
-    border-color: #888888;
-}
-
-.msgLocation{
-    font-size: 45px;    
-    font-family: sans-serif;
-    font-weight: 900;
-    letter-spacing: 1.5px;
-    margin-bottom: 0px;
-    color: #000111;
-}
-
-.msgTemp{
-    font-size: 22px;    
-    font-family: sans-serif;
-    font-weight: 400;
-    letter-spacing: 1.3px;
-    margin-bottom: 10px;
-    color: #333333;
-}
-
-.msgForecast{
-    font-size: 15px;    
-    font-family: sans-serif;
-    font-weight: 200;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
-    color: #666666;
-}
-
-.d1{
-    margin-top: 70px;
-    font-size: 15px;    
-    font-family: sans-serif;
-    font-weight: 200;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
-    color: #888888;
-    padding: 10px 10px;
-    background-color: #111111;
-    margin-right: 20px;
-}
+@media only screen and (max-width: 600px) {
+    body{
+        align-content: center;
+        margin: 0 auto;
+        font-family: sans-serif;
+        padding-left: 40px;
+        padding-right: 20px;
+     }
+     
+     h1{
+         font-size: 30px;
+         margin-bottom: 20px;
+         letter-spacing: 1.5px;
+     }
+     
+     a{
+         color: #333333;
+         text-decoration: none;
+         padding-right: 55px;
+         font-weight: 500;
+         font-size: 15px;
+         letter-spacing: 1.8px;
+     }
+     
+     p.footer_text{
+         color: #333333;
+     }
+     
+     footer{
+         position: fixed;
+         bottom: 0px;
+         min-width: 650px;
+     }
+     
+     form{
+         margin-top: 60px;
+     }
+     
+     input{
+         border: 1px solid #333333;
+         padding: 8px;
+     }
+     
+     button{
+         cursor: pointer;
+         border: 1px solid #888888;
+         background-color: #888888;
+         color: white;
+         padding: 8px;
+         border-color: #888888;
+     }
+     
+     .msgLocation{
+         font-size: 55px;    
+         font-family: sans-serif;
+         font-weight: 900;
+         letter-spacing: 1.5px;
+         color: #000111;
+         margin-top: 60px;
+         margin-bottom: 0px;;
+     }
+     
+     .msgTemp{
+         font-size: 25px;    
+         font-family: sans-serif;
+         font-weight: 400;
+         letter-spacing: 1.3px;
+         color: #333333;
+         margin-bottom: 0px;
+     }
+     
+     .msgForecast{
+         font-size: 15px;    
+         font-family: sans-serif;
+         font-weight: 200;
+         letter-spacing: 1.5px;
+         color: #666666;
+     }
+     
+     .d1{
+         margin-top: 70px;
+         font-size: 15px;    
+         font-family: sans-serif;
+         font-weight: 200;
+         letter-spacing: 1.5px;
+         margin-bottom: 10px;
+         color: #fff666;
+         padding: 10px 10px;
+         background-color: black;
+         margin-right: 20px;
+     }
+  }

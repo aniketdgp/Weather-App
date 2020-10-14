@@ -68,7 +68,7 @@ app.get("/api",(req,res)=>{
                     else{
                         res.send({
                             forecast : tData.consolidated_weather[0].weather_state_name,
-                            temprature : tData.consolidated_weather[0].the_temp,
+                            temprature : Math.round(tData.consolidated_weather[0].the_temp),
                             location : address
                         })
                     }
