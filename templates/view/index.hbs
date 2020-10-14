@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+            <link rel="icon" href="/img/weather.png">
+            <link rel="stylesheet" href="./css/styles.css">
+           
+    </head>
+
+    <body>
+        <h1>{{title}}</h1>
+         {{>header}} 
+
+            <form>
+                <input placeholder="Location" required = true>
+                <button>Search</button>
+            </form>
+            
+
+            <p class="msgLocation" id="msgLocation"></p>
+            <p class="msgForecast" id="msgForecast"></p>
+            <p class="msgTemp" id="msgTemp"></p>
+            
+
+
+         <script src="./js/c_side.js"></script>
+    </body>
+  {{>footer}}
+</html>

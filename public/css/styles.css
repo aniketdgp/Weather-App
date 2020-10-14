@@ -1,0 +1,90 @@
+body{
+   max-width: 650px;
+   align-content: center;
+   margin: 0 auto;
+   font-family: sans-serif;
+   padding-left: 20px;
+   padding-top: 25px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20;
+    letter-spacing: 1.5px;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+p.footer_text{
+    color: #333333;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    min-width: 650px;
+}
+
+form{
+    margin-top: 60px;
+}
+
+input{
+    border: 1px solid #333333;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color: #888888;
+    color: white;
+    padding: 8px;
+    border-color: #888888;
+}
+
+.msgLocation{
+    font-size: 45px;    
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    margin-bottom: 0px;
+    color: #000111;
+}
+
+.msgTemp{
+    font-size: 22px;    
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.msgForecast{
+    font-size: 15px;    
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+
+.d1{
+    margin-top: 70px;
+    font-size: 15px;    
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    color: #888888;
+    padding: 10px 10px;
+    background-color: #111111;
+    margin-right: 20px;
+}
