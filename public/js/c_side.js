@@ -17,7 +17,7 @@ weatherForm.addEventListener('submit',(e)=>{
 
     msglocation.textContent = "..."
 
-    const url = "http://localhost:3000/api?address="+location
+    const url = "/api?address="+location
     fetch(url).then((response)=>{
     response.json().then((data)=>{
         if(data.error){

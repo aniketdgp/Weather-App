@@ -4,6 +4,8 @@ const hbs = require('hbs')
 const getGeoId = require('../utils/geoid')
 const tempData = require('../utils/getTemp')
 
+//Setting up port for Heroku servers
+const port = process.env.PORT || 3000
 
 const app = express()
 
@@ -117,8 +119,8 @@ app.get('/help/*',(req,res)=>{
 })
 
 
-app.listen(3000,()=>{
-    console.log("Server is Up and Running")
+app.listen(port,()=>{
+    console.log("Server is Up and Running on port :"+port)
 })
 
 
