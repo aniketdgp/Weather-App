@@ -4,6 +4,8 @@ const search = document.querySelector('input')
 const msgTemp = document.querySelector('#msgTemp')
 const msglocation = document.querySelector('#msgLocation')
 const msgforecast = document.querySelector('#msgForecast')
+const minmax = document.querySelector("#minmax")
+
 
 //By Default Text = "Loading"
 // msgTemp.textContent  = "Loading"
@@ -30,6 +32,7 @@ weatherForm.addEventListener('submit',(e)=>{
             msgTemp.textContent  = data.temprature+" °C"
             msglocation.textContent = data.location
             msgforecast.textContent = data.forecast
+            minmax.textContent = "Min : " + data.min_temp + " Max : " +data.max_temp
         }
        
     })

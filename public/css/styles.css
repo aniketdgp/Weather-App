@@ -81,6 +81,15 @@
          margin-bottom: 10px;
          color: #666666;
      }
+
+     .minmax{
+        font-size: 15px;    
+        font-family: sans-serif;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+        color: #666666;
+    }
      
      .d1{
          margin-top: 70px;
